@@ -13,7 +13,6 @@ require (
 	github.com/dtm-labs/dtmdriver-springcloud v1.2.3
 	github.com/dtm-labs/logger v0.0.2
 	github.com/gin-gonic/gin v1.9.1
-	github.com/redis/go-redis/v9 v9.5.1
 	github.com/go-resty/resty/v2 v2.7.0
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/lib/pq v1.10.7
@@ -21,6 +20,7 @@ require (
 	github.com/onsi/gomega v1.23.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.16.0
+	github.com/redis/go-redis/v9 v9.5.1
 	github.com/stretchr/testify v1.8.3
 	github.com/zhufuyi/dtmdriver-sponge v0.0.2
 	go.etcd.io/bbolt v1.3.6
@@ -179,3 +179,5 @@ retract v1.18.7
 // replace github.com/dtm-labs/dtmdriver v0.0.2 => /Users/wangxi/dtm/dtmdriver
 
 // replace github.com/dtm-labs/dtmdriver-http => /Users/wangxi/dtm/dtmdriver-http-nacos
+
+replace github.com/dtm-labs/dtmdriver-kratos => github.com/jace996/dtmdriver-kratos v0.0.0-20231026152212-848d266ebd29
